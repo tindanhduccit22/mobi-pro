@@ -1,0 +1,41 @@
+# =========================
+# ASP.NET Core / Visual Studio
+# =========================
+.vs/
+**/.vs/
+**/bin/
+**/obj/
+
+# User-specific Visual Studio files
+*.user
+*.suo
+
+# =========================
+# React Native / Expo
+# =========================
+**/node_modules/
+**/.expo/
+**/.expo-shared/
+
+# Build files
+**/dist/
+**/build/
+
+# =========================
+# Environment / Secrets
+# =========================
+**/.env
+**/.env.*
+!**/.env.example
+
+# =========================
+# Logs / Temporary files
+# =========================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db

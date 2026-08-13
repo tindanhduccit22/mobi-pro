@@ -1,0 +1,6 @@
+@Mobi_HostAddress = http://localhost:5177
+
+GET {{Mobi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
