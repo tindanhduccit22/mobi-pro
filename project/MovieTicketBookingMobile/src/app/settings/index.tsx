@@ -42,8 +42,26 @@ export default function SettingsScreen() {
         </View>
 
         <View style={styles.section}>
+          <Text style={styles.sectionTitle}>Account</Text>
+          <Pressable style={styles.settingItem} onPress={() => router.push("/settings/change-password")}>
+            <Text style={styles.settingLabel}>Change Password</Text>
+            <Text style={styles.settingValue}>→</Text>
+          </Pressable>
+        </View>
+
+        <View style={styles.section}>
           <Text style={styles.sectionTitle}>About</Text>
           
+          <Pressable style={styles.settingItem} onPress={() => router.push("/settings/about")}>
+            <Text style={styles.settingLabel}>About Us</Text>
+            <Text style={styles.settingValue}>→</Text>
+          </Pressable>
+
+          <Pressable style={styles.settingItem} onPress={() => router.push("/settings/terms")}>
+            <Text style={styles.settingLabel}>Terms of Service</Text>
+            <Text style={styles.settingValue}>→</Text>
+          </Pressable>
+
           <View style={styles.settingItem}>
             <Text style={styles.settingLabel}>App Version</Text>
             <Text style={styles.settingValue}>1.0.0</Text>
